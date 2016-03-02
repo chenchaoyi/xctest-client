@@ -1,0 +1,41 @@
+{
+  "name": "xctest-client",
+  "version": "1.0.0",
+  "description": "xctest-client",
+  "keywords": [
+    "xctest"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/xudafeng/xctest-client.git"
+  },
+  "dependencies": {
+    "ios-simulator": "~1.0.0",
+    "macaca-utils": "~0.1.8",
+    "reliable-logger": "~1.0.7",
+    "request": "~2.69.0",
+    "webdriver-dfn-error-code": "~1.0.1",
+    "webdriveragent": "~1.0.0"
+  },
+  "devDependencies": {
+    "co-mocha": "*",
+    "mocha": "*",
+    "should": "*",
+    "jshint": "*",
+    "istanbul": "*",
+    "pre-commit": "1.1.1"
+  },
+  "scripts": {
+    "test": "make test",
+    "jshint": "make jshint"
+  },
+  "pre-commit": [
+    "jshint"
+  ],
+  "homepage": "https://github.com/xudafeng/xctest-client",
+  "author": "xudafeng",
+  "email": "xudafeng@126.com",
+  "blog": "http://xdf.me",
+  "license": "MIT"
+}
