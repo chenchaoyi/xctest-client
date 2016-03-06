@@ -1,6 +1,6 @@
 {
   "name": "xctest-client",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "xctest-client",
   "keywords": [
     "xctest"
@@ -13,10 +13,10 @@
   "dependencies": {
     "ios-simulator": "~1.0.0",
     "macaca-utils": "~0.1.8",
-    "reliable-logger": "~1.0.7",
     "request": "~2.69.0",
     "webdriver-dfn-error-code": "~1.0.1",
-    "webdriveragent": "~1.0.0"
+    "webdriveragent": "~1.0.0",
+    "xlogger": "~1.0.0"
   },
   "devDependencies": {
     "co-mocha": "*",
