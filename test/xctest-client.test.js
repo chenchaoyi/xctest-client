@@ -16,8 +16,7 @@
 var XCTest = require('..');
 
 describe('test', function() {
-  it('should be ok', function *(done) {
+  it('should be ok', function() {
     XCTest.should.be.ok;
-    done();
   });
 });
