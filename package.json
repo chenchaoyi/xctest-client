@@ -1,14 +1,14 @@
 {
   "name": "xctest-client",
-  "version": "1.0.9",
-  "description": "xctest-client",
+  "version": "1.0.10",
+  "description": "Node.js client for xctest",
   "keywords": [
     "xctest"
   ],
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/xudafeng/xctest-client.git"
+    "url": "git://github.com/macacajs/xctest-client.git"
   },
   "dependencies": {
     "ios-utils": "~1.0.0",
@@ -33,9 +33,6 @@
   "pre-commit": [
     "jshint"
   ],
-  "homepage": "https://github.com/xudafeng/xctest-client",
-  "author": "xudafeng",
-  "email": "xudafeng@126.com",
-  "blog": "http://xdf.me",
+  "homepage": "https://github.com/macacajs/xctest-client",
   "license": "MIT"
 }
